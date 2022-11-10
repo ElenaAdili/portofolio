@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-side{
+    flex: 2;
+    position: relative;
+    background: #111418;
+    border-right:1px solid rgba(0,0,0,0,07);
+    box-shadow: 0 0 15px rgba(0,0,0,0.065);
+}
+
