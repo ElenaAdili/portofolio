@@ -21,3 +21,16 @@ body{
     box-shadow: 0 0 15px rgba(0,0,0,0.065);
 }
 
+button{
+    outline: none;
+    border: none;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    background: rgba(0,0,0,0,3);
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border:solid #20c997 ;
+    color: #20c997;
+    text-transform: uppercase;
+    margin: 2rem;
+}
