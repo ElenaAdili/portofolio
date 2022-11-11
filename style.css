@@ -55,8 +55,8 @@ button:hover{
 
 .left-side nav{
     flex:2;
-    justify-content: center;
-    height:100vh;
+    justify-content: left;
+    height:70vh;
     align-items: center;
     display:flex;
     margin-top:2rem;
@@ -66,10 +66,23 @@ button:hover{
 list-style:none;
 
 }
-.left-side nav a{
+.left-side nav li{
     color:whitesmoke;
     text-decoration:none;
     margin:1rem;
+}
+.left-side .social-links{
+    position:absolute;
+    bottom:0;
+    display: flex;
+    padding:2rem;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.left-side .social-links a{
+    color:#fff;
+    padding:0.5rem;
 }
 
 .avatar{
@@ -117,3 +130,5 @@ h1{
     font-size:4em;
     color:white;
 }
+
+
