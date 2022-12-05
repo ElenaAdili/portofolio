@@ -2,5 +2,6 @@ git clone https://github.com/ElenaAdili/portofolio.git //e kena klonu projektin 
 git status //me kqyr qfar fajlla kena ndryshu
 git add . // mi shti ndryshimet ne GIT edhe mi bo gati per COMMIT
 git commit -m'komenti qe me dit qa kena bo commit(ndryshimet)'
+git push origin main // pi bojna ndryshimet lokale push ne origjinen e fajllit(projekti ne github qe e klonum)
 
 
